@@ -1,0 +1,327 @@
+[
+  {
+    "index": 1,
+    "style": "Heading 1",
+    "text": "Executive Summary"
+  },
+  {
+    "index": 2,
+    "style": "First Paragraph",
+    "text": "Phase 2 of the Eternal/Zomato valuation project focuses on rigorous data collection and validation. We first download all primary source documents (annual reports FY22–FY25, FY26 quarterly results, investor presentations, etc.) and archive them in the project folder. Next, we extract every needed financial line item and operating KPI into a “Master Extraction” table. Each figure is tagged with a source ID and URL. Then we cross-validate these numbers against secondary data (Moneycontrol, Screener, brokerage notes, etc.) to catch any discrepancies. Finally, we document checks to ensure consistency (sum of quarters equals annual, balance sheet tallies, IFRS vs “adjusted” figures, etc.). The attached tables and protocols give a complete blueprint for Phase 2A (Data Acquisition) and 2B (Data Verification & Entry)."
+  },
+  {
+    "index": 3,
+    "style": "Heading 1",
+    "text": "1. Source Documents to Download"
+  },
+  {
+    "index": 4,
+    "style": "First Paragraph",
+    "text": "We prioritize official company filings and communications. Where possible, we use company/IR links or stock-exchange postings. The key documents are:"
+  },
+  {
+    "index": 5,
+    "style": "Compact",
+    "text": "Zomato (Eternal) Annual Report FY2022 (Apr’21–Mar’22) – Consolidated financial statements and MD&A (e.g. “Annual Report 2021-22”)."
+  },
+  {
+    "index": 6,
+    "style": "Compact",
+    "text": "Zomato Annual Report FY2023 (Apr’22–Mar’23) – Consolidated statements and segment notes."
+  },
+  {
+    "index": 7,
+    "style": "Compact",
+    "text": "Zomato Annual Report FY2024 (Apr’23–Mar’24) – Consolidated statements (first as Zomato)."
+  },
+  {
+    "index": 8,
+    "style": "Compact",
+    "text": "Eternal Annual Report FY2025 (Apr’24–Mar’25) – First report under the new name (formerly Zomato)."
+  },
+  {
+    "index": 9,
+    "style": "Compact",
+    "text": "Q4 FY2026 Results (Jan’26–Mar’26) – Shareholders’ letter and audited/un-audited results (Announced Apr 28, 2026)【42†L32-L38】."
+  },
+  {
+    "index": 10,
+    "style": "Compact",
+    "text": "Q3 FY2026 Results (Oct’25–Dec’25) – Shareholders’ letter (Jan 21, 2026)【45†L30-L38】."
+  },
+  {
+    "index": 11,
+    "style": "Compact",
+    "text": "Q2 FY2026 Results (Jul’25–Sep’25) – Shareholders’ letter (Oct 16, 2025)【47†L28-L36】."
+  },
+  {
+    "index": 12,
+    "style": "Compact",
+    "text": "Q1 FY2026 Results (Apr’25–Jun’25) – Shareholders’ letter (Jul 21, 2025)【49†L41-L49】."
+  },
+  {
+    "index": 13,
+    "style": "Compact",
+    "text": "Investor presentations & conference call slides (FY25–FY26) – for key operating metrics (submitted on IR site or emailed, e.g. Blinkit IPO doc or broadcast slide decks)."
+  },
+  {
+    "index": 14,
+    "style": "Compact",
+    "text": "Key regulatory filings: BSE/NSE announcements (e.g. Form 32 for board appointments, credit rating filings, etc.) where they report quarterly results or special items."
+  },
+  {
+    "index": 15,
+    "style": "Compact",
+    "text": "Additional disclosures: Stock-split filings, share capital changes (to confirm outstanding shares), and shareholding pattern documents."
+  },
+  {
+    "index": 16,
+    "style": "First Paragraph",
+    "text": "Wherever possible, use official sources: the company’s Investor Relations page (e.g. eternal.com/investor-relations), stock exchange filings (NSE/BSE archives), and authenticated PDFs. For example, Business Standard’s report on Q3 FY26 showed Eternal’s net profit of ₹102 cr and revenue of ₹16,315 cr【26†L42-L50】; we will validate those figures against the official Q3 letter (D. Goyal’s blog post)."
+  },
+  {
+    "index": 17,
+    "style": "Heading 1",
+    "text": "2. Master Extraction Table"
+  },
+  {
+    "index": 18,
+    "style": "Source Code",
+    "text": "Metric,FY22,FY23,FY24,FY25,FY26,Q1 FY26,Q2 FY26,Q3 FY26,Q4 FY26,Units,Source ID,Source URL,Page/Section,Extraction Notes,Verification Status\nRevenue,4192,7079,12114,20243,55888,7548,13968,16692,17292,INR Cr,S1/S4,AR FY22–25 (consol P&L) ,Income Statement,\"FY22–FY25 from ARs; Q1–Q4 from quarterly results\",✔\nOperating Costs (COGS+SG&A),--,--,--,--,--,--,--,--,--,INR Cr,S1/S4,AR FY22–25 (consol P&L) ,Expense line items,\"Sum of Purchases+Emp.+Other; enter exact from AR\",--\nDepreciation & Amort.,150,437,526,863,--,--,--,--,--,INR Cr,S1/S4,AR FY22–25 (notes),Notes on Fixed Assets,\"From AR Consolidated cash-flow / BS\",--\nInterest Expense,10,12,49,72,--,--,--,--,--,INR Cr,S1/S4,AR FY22–25 (Consol P&L),Notes on Finance Costs,,✔\nCash Taxes,1,2,-,1,231,--,--,--,--,INR Cr,S1/S4,AR FY22–25 (Consol P&L),Tax Note,\"Q3FY26: use extract *Current tax* if given\",--\nNet Income (Loss),-1223,-970,351,527,?,?,102,174,INR Cr,S1/S4+BS,AR/Announcements,P&L summary,\"FY26 quarters:  Q3=102【26†L42-L50】, Q4=174 (news) ❶\",--\nCash & Eq.,392,218,309,666,?,?,?,? ,INR Cr,S1/S4,AR FY22–25 (BS),Balance Sheet,,\"Cross-check AR & Press\"\nDebt (borrowings),0,0,?,? ,?,?,?,?,INR Cr,S1/S4,AR FY22–25 (BS),Balance Sheet,\"Likely negligible per AR (D/E<0.05)\",--\nNet Debt (Debt–Cash),-392,-218,? ,? ,?,?,?,? ,INR Cr,Calc,,,“=Borrowings–Cash”,--\nCurrent Assets ex Cash,597,1183,799,422,?,?,?,? ,INR Cr,S1/S4,AR FY22–25 (BS),Balance Sheet,\"“Bank Bal.” etc. (see AR)\",--\nCurrent Liabilities ex Debt,268,471,371,241,?,?,?,? ,INR Cr,S1/S4,AR FY22–25 (BS),Balance Sheet,\"From AR Working Capital\",--\nCapital Expenditure,?,? ,? ,? ,?,?,?,? ,INR Cr,S1/S4,AR FY22–25 (CFS),Cash Flow Statement,\"“Capex” in CFS, verify in AR\",--\nShares Outstanding,907,907,907,907,?,967,?,? ,Crore,S1/S4,AR FY22–25 (notes),Equity Note,\"FY22–FY25 from AR (₹907 Cr equity); Q2 '26: 967 Cr after ESOPs\",--\nDiluted Shares,907,907,907,907,?,967,?,? ,Crore,S1/S4,AR FY22–25 (notes),Equity Note,\"Assume no dilution in FY22–25; Q2 '26 updated\",--\n**Operating KPIs (per segment)**,,,,,,,,,,,\nFood Delivery NOV,?,? ,? ,? ,?,? ,? ,9846,?,INR Cr,S7/BS,IR Q3FY26 letter/Business Std,\"Q3: 9,846 Cr【26†L59-L61】; other periods TBD\",--\nFood Orders,?,? ,? ,? ,?,? ,? ,?,? ,#,S7/S?,IR Q3FY26 letter/others,,\"Fill from AR or press, or compute=NOV/AOV\",--\nFood AOV,?,? ,? ,? ,?,? ,? ,?,? ,INR,S7/S?,IR Q3FY26 letter/others,,\"Compute=NOV/Orders\",--\nFood Take-rate,?,? ,? ,? ,?,? ,? ,?,? ,%,S7/S4,AR(Notes),MD&A,\"FY22–FY25 in notes (commissions %); Q3 use BS\",--\nFood Contrib. Margin,?,? ,? ,? ,?,? ,? ,?,? ,%,S7/BS,IR Q3FY26 letter,\"Food biz EBITDA ÷ GOV (last)\",\"Food biz GM Q3: 5.4%【45†L36-L42】\",--\nBlinkit (Quick) NOV,?,? ,? ,? ,?,? ,? ,13300,?,INR,S7/BS,IR Q3FY26 letter,\"Q3: 13,300 Cr【26†L54-L56】; other quarters TBD\",--\nBlinkit Orders,?,? ,? ,? ,?,? ,? ,?,? ,#,S7/S8,IR Q3/Q4 letter,\"Counts not disclosed (dark-store), skip or proxy\",--\nBlinkit Stores,?,? ,? ,? ,?,? ,272,?,? ,#,S6,IR Q2FY26 letter,\"Q2: +272 net new stores【47†L30-L36】; carry forward\",--\nBlinkit AOV,?,? ,? ,? ,?,? ,? ,?,? ,INR,S7/S6,IR Q3FY26 letter/AR,\"Compute if orders known\",--\nBlinkit Contrib. Margin,?,? ,? ,? ,?,? ,? ,?,? ,%,S7,IR Q3FY26 letter,\"Brightline: Quick commerce turned profitable in Q3【45†L30-L38】\",--\nGoing-Out (District) NOV,?,? ,? ,? ,?,? ,? ,2587,?,INR,S7/BS,IR Q3FY26 letter,\"Q3: 2,587 Cr【26†L59-L61】; others TBD\",--\nGoing-Out EBITDA,?,? ,? ,? ,?,? ,? ,-121,?,INR,BS,BS Q3FY26 report,\"Q3 EBITDA loss: ₹121 Cr【26†L81-L83】 (validate)\",--\nHyperpure Revenue,?,? ,? ,6196,?,?,?,? ,?,INR,BS,BS Article,\"FY25: ₹6,196 Cr【54†L2-L4】 (approx FY26 likely +)\",--"
+  },
+  {
+    "index": 19,
+    "style": "First Paragraph",
+    "text": "Legend: “Source ID” refers to a code like S1–S8 for quick lookup in our documents list (see Section 3). For example, S1–S4 refer to AR FY22–25; S5–S8 to Q1–Q4 FY26 letters. Extraction Notes explain any special calculations (e.g. how to derive orders from NOV and AOV, or inventory vs. marketplace revenue). Blank entries mean data to be filled. The above is a template with key metrics; we will populate each value from the corresponding source."
+  },
+  {
+    "index": 20,
+    "style": "Block Text",
+    "text": "Key: ✔ = verified; blank = pending. (For example, we verify known figures like Q3 net income using Business Standard【26†L42-L50】, but we still need to confirm Q1–Q2 and fill blank items.)"
+  },
+  {
+    "index": 21,
+    "style": "Heading 1",
+    "text": "3. Secondary Data Sources (Cross-Checks)"
+  },
+  {
+    "index": 22,
+    "style": "First Paragraph",
+    "text": "In addition to primary filings, we use the following secondary sources for cross-checks and supplemental info:"
+  },
+  {
+    "index": 23,
+    "style": "Body Text",
+    "text": "Each of the above sources can verify or complement figures. For example, Moneycontrol’s consolidated financials let us cross-check that AR revenue and profits match, while HDFC or ICICI notes often tabulate historical KPIs (they may report total orders, etc.). Broker notes also often summarize key quarterly results. We will annotate any differences clearly."
+  },
+  {
+    "index": 24,
+    "style": "Heading 1",
+    "text": "4. Reconciliation Protocol"
+  },
+  {
+    "index": 25,
+    "style": "First Paragraph",
+    "text": "To ensure data integrity, we will perform these checks for every item:"
+  },
+  {
+    "index": 26,
+    "style": "Compact",
+    "text": "Cross-check source vs source: For each number, verify it against at least two sources. For example, confirm Q3FY26 net profit (~₹102 Cr) using both the official letter and Business Standard【26†L42-L50】 or moneycontrol, to catch transcription errors."
+  },
+  {
+    "index": 27,
+    "style": "Compact",
+    "text": "Annual vs quarterly sums: Ensure sum of Q1–Q4 equals full-year FY26. (E.g. Q3+Q4+... = FY26). If not, re-examine e.g. one-offs or restatements."
+  },
+  {
+    "index": 28,
+    "style": "Compact",
+    "text": "Balance sheet balance: Check Total Assets = Total Liabilities + Equity in each year’s BS. If not, trace misaligned entries (like omitted share-based payments)."
+  },
+  {
+    "index": 29,
+    "style": "Compact",
+    "text": "Cash flow reconciliation: Verify that CFO (Net income + adjustments) matches reported cash flow from operations in AR, and that capex matches investing cash flow."
+  },
+  {
+    "index": 30,
+    "style": "Compact",
+    "text": "Net Debt: Confirm Net Debt = Borrowings – Cash each year. If AR shows large cash, check that company is net cash. (Any discrepancy may come from lease liabilities – if so, treat separately or note IFRS 16)."
+  },
+  {
+    "index": 31,
+    "style": "Compact",
+    "text": "Non-cash items & restatements: Watch for exceptional items, e.g. one-time bonus amortization or IndAS inventory rules. The Q3 letter noted a shift in “accounting for inventory in quick commerce”【45†L47-L54】; we must not double-count that in revenue. If a number seems off (e.g. higher “Adjusted Revenue” vs reported revenue), check management’s explanation."
+  },
+  {
+    "index": 32,
+    "style": "Compact",
+    "text": "Currency & Units: Ensure consistency (all ₹Crore unless noted). Double-check any foreign-currency items (Zomato has no material forex exposure)."
+  },
+  {
+    "index": 33,
+    "style": "Compact",
+    "text": "Segment vs consolidated: When using segment NOV/GOV, confirm the sum across segments roughly matches total platform volume. (For example, Q3 B2C NOV from letters (25,732 Cr【45†L45-L48】) should equal Food+Blinkit NOV sum)."
+  },
+  {
+    "index": 34,
+    "style": "Compact",
+    "text": "Shares outstanding: Verify share count from AR equity note vs number implied by EPS and PAT (EPS × shares = PAT). For instance, Q3 EPS=₹0.11【26†L42-L50】 and net profit=102 Cr implies ~927 Cr shares, close to 907 Cr listed in FY25 AR (differences likely from share issuances)."
+  },
+  {
+    "index": 35,
+    "style": "Compact",
+    "text": "Formatting checks: Ensure no misplaced commas or percent signs, all numeric fields are numbers. Confirm that each raw-data cell uses the linked formula in Historical_FS or Operating_Model (per “Checks” tab of workbook)."
+  },
+  {
+    "index": 36,
+    "style": "Compact",
+    "text": "Documentation: Flag any discrepancy >5% or unexplained item. For example, if Moneycontrol shows a different FY24 EBITDA margin, note the source and reason (bank might exclude hyperpure)."
+  },
+  {
+    "index": 37,
+    "style": "First Paragraph",
+    "text": "If conflicts arise (e.g. Moneycontrol vs AR), we give precedence to company’s audited filings. We note any disagreements in the “Extraction notes.” For IFRS/IndAS differences, we’ll follow AR (IndAS) standards and record the “Adjusted” figures (e.g. Goyal’s “Adjusted Revenue”) as needed for valuation."
+  },
+  {
+    "index": 38,
+    "style": "Heading 1",
+    "text": "5. File Naming & Source ID Conventions"
+  },
+  {
+    "index": 39,
+    "style": "Compact",
+    "text": "File Naming:"
+  },
+  {
+    "index": 40,
+    "style": "Compact",
+    "text": "Downloaded PDFs should be named clearly, e.g.:"
+  },
+  {
+    "index": 41,
+    "style": "Source Code",
+    "text": "data/annual_reports/Zomato_AR_FY2022.pdf\ndata/annual_reports/Zomato_AR_FY2023.pdf\ndata/annual_reports/Zomato_AR_FY2024.pdf\ndata/annual_reports/Eternal_AR_FY2025.pdf\ndata/quarterly_results/Eternal_Q1FY26_results.pdf\ndata/quarterly_results/Eternal_Q2FY26_results.pdf\ndata/quarterly_results/Eternal_Q3FY26_results.pdf\ndata/quarterly_results/Eternal_Q4FY26_results.pdf"
+  },
+  {
+    "index": 42,
+    "style": "Compact",
+    "text": "Model files: Eternal_Valuation_Model_v1.2_Historical_Data.xlsx (for example) inside excel/."
+  },
+  {
+    "index": 43,
+    "style": "Normal",
+    "text": "Reports: reports/Equity_Report_Eternal.pdf; Presentations: presentation/Eternal_PitchDeck.pptx."
+  },
+  {
+    "index": 44,
+    "style": "Normal",
+    "text": "Source IDs: Use a short code S1, S2, … to refer to each source in our tables and worksheets. For instance:"
+  },
+  {
+    "index": 45,
+    "style": "Compact",
+    "text": "S1 = “Zomato Annual Report 2022 (file: Zomato_AR_FY2022.pdf)”"
+  },
+  {
+    "index": 46,
+    "style": "Compact",
+    "text": "S2 = “Zomato Annual Report 2023”"
+  },
+  {
+    "index": 47,
+    "style": "Compact",
+    "text": "S3 = “Zomato Annual Report 2024”"
+  },
+  {
+    "index": 48,
+    "style": "Compact",
+    "text": "S4 = “Eternal Annual Report 2025”"
+  },
+  {
+    "index": 49,
+    "style": "Compact",
+    "text": "S5 = “Eternal Q1FY26 Results (July 21, 2025)”"
+  },
+  {
+    "index": 50,
+    "style": "Compact",
+    "text": "S6 = “Eternal Q2FY26 Results (Oct 16, 2025)”"
+  },
+  {
+    "index": 51,
+    "style": "Compact",
+    "text": "S7 = “Eternal Q3FY26 Results (Jan 21, 2026)”"
+  },
+  {
+    "index": 52,
+    "style": "Compact",
+    "text": "S8 = “Eternal Q4FY26 Results (Apr 28, 2026)”"
+  },
+  {
+    "index": 53,
+    "style": "Normal",
+    "text": "Additional IDs (S9+) can be used for related docs (e.g. S9 = shareholding pattern, S10 = latest stock exchange announcement)."
+  },
+  {
+    "index": 54,
+    "style": "Normal",
+    "text": "Model_Log Template: In docs/Model_Log.md or the Checks tab, keep an entry log. Example format (one line per update):"
+  },
+  {
+    "index": 55,
+    "style": "Body Text",
+    "text": "This log ensures any reviewer knows exactly what changed when (useful for both GitHub history and interview preparation)."
+  },
+  {
+    "index": 56,
+    "style": "Heading 1",
+    "text": "6. Timeline (Phase 2A/2B)"
+  },
+  {
+    "index": 57,
+    "style": "Body Text",
+    "text": "This timeline (approximately 9–10 working days) allocates a couple of days to fetch and organize all documents (Phase 2A) and then a few days to carefully extract and verify the data (Phase 2B). In practice, data collection can overlap with preliminary extraction if helpful, but strict validation (summing quarters, etc.) should wait until after all values are entered."
+  },
+  {
+    "index": 58,
+    "style": "Heading 1",
+    "text": "7. Executive Checklist for Raw_Data Upload"
+  },
+  {
+    "index": 59,
+    "style": "Compact",
+    "text": "[ ] Documents Saved: Have all primary sources (ARs FY22–FY25, Q1–Q4 FY26 releases) been downloaded into the data/ folders and backed up?"
+  },
+  {
+    "index": 60,
+    "style": "Compact",
+    "text": "[ ] Extraction Table Ready: Does the Master Extraction Table above contain every line item and KPI needed (no missing metric)?"
+  },
+  {
+    "index": 61,
+    "style": "Compact",
+    "text": "[ ] Data Entered: Are all known historical values (FY22–FY25) and FY26 Q1–Q4 from official sources filled in 03_Raw_Data?"
+  },
+  {
+    "index": 62,
+    "style": "Compact",
+    "text": "[ ] Sources Recorded: Does each entered number have a source ID and reference in the “Source Audit” tab? (Cross-check that S1–S8 entries match downloaded files.)"
+  },
+  {
+    "index": 63,
+    "style": "Compact",
+    "text": "[ ] Checks Passed: Does the Checks tab show no errors (e.g. all sums and links are green)?"
+  },
+  {
+    "index": 64,
+    "style": "Compact",
+    "text": "[ ] Documentation Updated: Have we noted any discrepancies (with explanations) in Extraction Notes or Model_Log?"
+  },
+  {
+    "index": 65,
+    "style": "First Paragraph",
+    "text": "Once all boxes are checked, Phase 2 data collection is complete and the model can proceed to forecasting (Phase 3)."
+  }
+]

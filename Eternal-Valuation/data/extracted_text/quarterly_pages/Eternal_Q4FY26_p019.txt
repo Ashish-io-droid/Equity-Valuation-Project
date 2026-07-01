@@ -1,0 +1,41 @@
+Going-out (continued) 
+Term 
+Average order value (AQV) 
+Net average order value (Net AOV / NAOV) 
+Revenue 
+Adjusted Revenue 
+Adjusted EBITDA 
+Hyperpure 
+Term 
+Revenue 
+Adjusted Revenue 
+Adjusted EBITDA 
+Description 
+GOV divided by number of Transactions 
+NOV divided by number of Transactions 
+Defined as going-out revenue from operations including commission 
+charged from restaurant and other partners on Transactions done 
+through the Zomato or District app in India and UAE (+) subscription 
+revenue for Zomato Gold in UAE for access to dining-out offers in UAE 
+(+)ad revenue (+) platform share of convenience fee collected from 
+customers (+) membership fee collected from sale of District Pass (+) 
+take-rate earned from merchants and third-party event organizers on 
+sale of tickets (+) ticket sale collections for events managed by Eternal 
+(+) sponsorship and event marketing revenue (+) event production and 
+management fee earned from co-produced events (+) revenue for 
+providing on-ground event management services (+) rentals and 
+commission charged on sale of food & other products from merchants 
+participating in Eternal managed live events (+) cancellation fee and 
+other charges 
+Same as Revenue 
+Defined as EBITDA (+) share-based payment expense (-) rental paid for 
+the period pertaining to ‘Ind AS 116 leases’ 
+Description 
+Defined as Hyperpure supplies revenue from operations including total 
+monetary value of goods sold on the Hyperpure platform (net of any 
+returns/ discounts)(+) actual delivery charges paid (net of any 
+discounts)(+)other revenue 
+Same as Revenue 
+Defined as EBITDA (+) share-based payment expense (-) rental paid for 
+the period pertaining to ‘Ind AS 116 leases’ 
+18

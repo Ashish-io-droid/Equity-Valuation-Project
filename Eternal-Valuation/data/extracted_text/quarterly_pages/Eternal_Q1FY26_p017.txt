@@ -1,0 +1,47 @@
+Annexure C - Glossary for terms used in reference to the business 
+Consolidated 
+Term 
+Revenue 
+Adjusted Revenue 
+Adjusted EBITDA 
+Food delivery 
+Term 
+Food delivery business 
+Orders 
+Gross order value (GOV) 
+Net order value (NOV) 
+Average order value (AOV) 
+Net average order value (Net AOV / NAOV) 
+Revenue 
+Adjusted Revenue 
+Description 
+Consolidated revenue from operations as per financials which includes 
+food delivery Revenue (+) Hyperpure (B2B supplies) Revenue (+) Quick 
+commerce Revenue (+) Going-out Revenue (+) revenue from Others 
+business segment 
+Defined as Revenue (+) actual customer delivery charges paid in the 
+food delivery business (net of any discounts, including free delivery 
+discounts on account of Zomato Gold program)(+) platform fee paid in 
+the food delivery business (that is not already included in Revenue) 
+Defined as consolidated EBITDA (+) share-based payment expense (-) 
+rental paid for the period pertaining to ‘Ind AS 116 leases’ 
+Description 
+Refers to India food ordering and delivery business 
+All food delivery orders placed on our platform in India, including 
+canceled orders 
+Total monetary value of Orders gross of any restaurant or platform 
+funded discounts (excluding tips)(+) actual customer delivery charges 
+paid (net of any discounts, including free delivery discounts on account 
+of Zomato Gold program)(+) packaging charges (+) taxes 
+GOV (-)all discounts (funded by restaurant, platform, bank, others) 
+GOV divided by number of Orders 
+NOV divided by number of Orders 
+Defined as commission and other charges (+) ad revenue (+) platform 
+fee and subscription revenue (net of discounts, credits and refunds 
+other than free delivery) (+) restaurant & delivery partner onboarding 
+fee 
+Defined as Revenue (+) actual customer delivery charges paid (net of 
+any discounts, including free delivery discounts on account of Zomato 
+Gold program) (+) platform fee that is not already included in Revenue 
+on account of Ind AS 115 adjustment 
+16

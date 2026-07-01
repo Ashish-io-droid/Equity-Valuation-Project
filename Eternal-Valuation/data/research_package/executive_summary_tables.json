@@ -1,0 +1,108 @@
+[
+  {
+    "table_index": 1,
+    "rows": [
+      [
+        "Source & Purpose",
+        "URL"
+      ],
+      [
+        "Moneycontrol – Financials – Consolidated P&L, BS, and quarterly results (for quick lookup and comparison)",
+        "moneycontrol.com/financials/zomato【39†L303-L309】"
+      ],
+      [
+        "Screener.in – Company metrics and chart (for quick screening of historical revenue, margins, share count)",
+        "screener.in/company/eternal-limited/"
+      ],
+      [
+        "Bloomberg/Refinitiv/CapitalIQ (if available) – Institutional consensus and historical data (subscription-based).",
+        ""
+      ],
+      [
+        "Brokerage Research Reports:<br>- HDFC Sec. (HSIE) Zomato Equity Research<br>- ICICI Securities Zomato Report<br>- Elara Capital Zomato Note<br>- Geojit or Kotak reports",
+        "(URLs as below)"
+      ],
+      [
+        "HDFC Securities (HSIE) – Analyst note on Zomato (Valuation commentary)",
+        "HDFC Securities Zomato Note (PDF)"
+      ],
+      [
+        "ICICI Securities – Zomato research (assumptions, multiples)",
+        "ICICI Zomato Report"
+      ],
+      [
+        "Elara Capital – Zomato valuation note",
+        "Elara Zomato Report (PDF)"
+      ],
+      [
+        "Geojit Research – Zomato (assumptions, valuations)",
+        "Geojit Zomato Note (PDF)"
+      ],
+      [
+        "InvestmentGuru – Zomato Q2FY26 update PDF",
+        "InvestmentGuru Q2FY26 (PDF)"
+      ],
+      [
+        "Press & Media (for context):<br>- Business Standard / LiveMint / ET–Company news (e.g. Q3/Q4 result stories)【26†L42-L50】.",
+        "e.g. BS Q3 FY26 Results【26†L42-L50】."
+      ],
+      [
+        "Bloomberg Terminal / Reuters: Searching for press release excerpts (e.g. Reuters on rebranding).",
+        ""
+      ],
+      [
+        "Competitor Filings (for comps): FY25 10-K equivalents for Swiggy (if ever public) or published numbers. (Not needed for raw data, but for context).",
+        ""
+      ]
+    ]
+  },
+  {
+    "table_index": 2,
+    "rows": [
+      [
+        "Date",
+        "Version",
+        "Changes / Updates Made",
+        "Author"
+      ],
+      [
+        "2026-07-01",
+        "v1.1",
+        "Built Raw_Data template, formatted tabs",
+        "[Your Name]"
+      ],
+      [
+        "2026-07-03",
+        "v1.2",
+        "Added historical financials from ARs FY22–25",
+        "[Your Name]"
+      ],
+      [
+        "2026-07-05",
+        "v1.3",
+        "Entered Q1–Q3FY26 actuals, updated checks",
+        "[Your Name]"
+      ],
+      [
+        "2026-07-08",
+        "v1.4",
+        "Completed Q4FY26 data, finalized Raw_Data",
+        "[Your Name]"
+      ],
+      [
+        "...",
+        "...",
+        "...",
+        "..."
+      ]
+    ]
+  },
+  {
+    "table_index": 3,
+    "rows": [
+      [
+        ""
+      ]
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+014. What is leading to the (almost consistent) ~INR 50 crore quarterly loss in the 
+‘Others’ segment? 
+Akshant: The quarterly losses in the Others segment are largely on account of investments in our quick 
+food delivery service Bistro, where kitchen infrastructure is managed by us. We now have about 45 
+kitchens operational mainly in two cities (Delhi NCR, Bangalore). We are seeing early signs of 
+product-market-fit, reflected in healthy throughput per outlet and early signs of a possible path to 
+profitability. 
+015. Can you share an update on the cash balance as at the end of 03FY26? 
+Akshant: Cash balance decreased to INR 17,820 crore (vs INR 18,314 crore in 02FY26) largely due to the 
+expected investments in capex and NWC in our quick commerce business, as mentioned in 08 above. 
+Consolidated cash balance 
+INR crore, unless otherwise mentioned 03FY25 04FY25 0IFY26 02FY26 03FY26 
+Adjusted EBITDA 285 165 172 224 364 
+Add: Treasury income received 143 195 235 m 228 
+Less: Capital expenditure incurred -256 -317 -370 -417 -465 
+Add: Other items -28 148 107 -39 69 
+Cash (burn)/ surplus 144 191 144 -61 196 
+Add: (Increase) / Decrease in net working capital -168 -602 -m -482 -690 
+Add: Net proceeds from QIP 8,446 - = - - 
+Change in cash 8,422 =41 33 -543 -494 
+Add: Opening cash balance 10,813 19,235 18,824 18,857 18,314 
+Closing cash balance 19,235 18,824 18,857 18,314 17,820 
+THEEND

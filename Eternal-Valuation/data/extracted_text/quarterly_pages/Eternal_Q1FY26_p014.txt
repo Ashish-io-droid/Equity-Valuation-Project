@@ -1,0 +1,149 @@
+Quick commerce (continued) 
+Operating metrics 
+million, unless otherwise mentioned 
+Orders 
+Average order value (AOV)(INR) 
+Net average order value (Net AOV)(INR) 
+Average monthly transacting customers 
+Average monthly active riders ('000) 
+Average GOV per day, per store (INR‘000) 
+Average NOV per day, per store (INR‘000) 
+Stores at the end of the period (#) 
+QIFY25 
+78.8 
+625 
+516 
+76 
+105 
+956 
+789 
+639 
+02FY25 
+92.9 
+660 
+531 
+8.9 
+127 
+981 
+789 
+791 
+03FY25 
+10.3 
+707 
+546 
+10.6 
+145 
+970 
+749 
+1,007 
+04FY25 
+1417 
+665 
+520 
+13.7 
+185 
+942 
+736 
+1,301 
+01FY26 
+178.7 
+669 
+521 
+6.9 
+243 
+943 
+734 
+1,544 
+Financial metrics 
+INR crore, unless otherwise mentioned 
+Gov 
+YoY % change 
+NOV 
+YoY % change 
+Revenue 
+YoY % change 
+Adjusted EBITDA 
+asa % of GOV 
+asa % of NOV 
+QIFY25 
+1,268 
++106% 
+1031 
++116% 
+95 
++126% 
+10 
+0.8% 
+0.9% 
+02FY25 
+1,849 
++171% 
+1,562 
++182% 
+154 
++214% 
+0.9% 
+1.0% 
+03FY25 
+2,495 
++191% 
+2,158 
++204% 
+259 
++255% 
+-17 
+-0.7% 
+-0.8% 
+04FY25 
+2,184 
++104% 
+1,868 
++122% 
+229 
++146% 
+-47 
+-2.2% 
+-2.5% 
+QIFY26 
+2,370 
++87% 
+2,013 
++95% 
+207 
++118% 
+-54 
+-2.3% 
+-2.7% 
+B2B supplies (Hyperpure) 
+Financial metrics 
+INR crore, unless otherwise mentioned 
+Revenue 
+YoY % change 
+Adjusted EBITDA 
+as a % of Revenue 
+QIFY25 
+1212 
++96% 
+-22 
+-1.8% 
+02FY25 
+1473 
++98% 
+-21 
+-1.4% 
+03FY25 
+1,671 
++95% 
+-19 
+-11% 
+04FY25 
+1,840 
++93% 
+-22 
+-1.2% 
+01FY26 
+2,295 
++89% 
+-18 
+-0.8% 
+13

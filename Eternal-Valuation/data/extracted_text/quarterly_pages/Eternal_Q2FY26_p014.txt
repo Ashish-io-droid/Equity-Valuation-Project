@@ -1,0 +1,22 @@
+Annexure B - Adjusted Revenue and Adjusted EBITDA reconciliation 
+The following table reconciles revenue from operations and stated loss for the period (as per Ind AS)with 
+Adjusted Revenue and Adjusted EBITDA, respectively. 
+Adjusted Revenue 
+INR crore, unless otherwise mentioned 02FY25 Q3FY25 0Q4FY25 QIFY26 02FY26 
+Revenue from operations 4,799 5,405 5,833 7167 13,590 
+Add: Actual customer delivery charges paid in 
+the food delivery business 253 24 248 273 225 
+Add: Gross platform fee paid in the food delivery 123 169 186 213 254 
+business 
+bushtese e akoty ikl I o) “ & 7 8 o 
+Adjusted Revenue 5127 5,746 6,188 7563 13,968 
+INR crore, unless otherwise mentioned 02FY25 03FY25 04FY25 QIFY26 02FY26 
+Adjusted EBITDA 330 285 165 172 224 
+Add: Other income 221 252 368 354 352 
+Add: Rental paid pertaining to ‘Ind AS 116 leases’ 75 94 124 153 189 
+Less: Depreciation & amortization expense 180 247 287 314 376 
+Less: Finance cost 30 43 56 67 86 
+Less: ESOP expense 179 217 217 210 174 
+Less: Exceptional items 0 0 0 0 0 
+Less: Tax expense!” 61 65 58 63 64 
+Profit / (loss) for the period 176 59 39 25 65

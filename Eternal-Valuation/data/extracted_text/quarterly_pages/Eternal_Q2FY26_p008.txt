@@ -1,0 +1,40 @@
+Akshant: Hyperpure Revenue declined 55% Qo0 to INR 1,023 crore (from INR 2,295 crore in Q1FY26) driven 
+by a 94% QoQ decline in Revenue of the non-restaurant business to INR 83 crore (from INR 1,479 crore in 
+01FY26)as we moved to inventory ownership in quick commerce. 
+The core restaurant business on the other hand continued to grow steadily at 42% YoY (15% QoQ)to INR 
+940 crore in 02FY26. We expect the core restaurant business to continue growing at 40% YoY, while we will 
+scale down non-restaurant business to zero. 
+On the profitability front, Adjusted EBITDA margin in the core restaurant business improved meaningfully 
+t0-0.9% from -2.2% earlier driven by improvements in sourcing, product pricing and supply chain cost. We 
+expect this business to become profitable over the next two quarters with steadily improving profitability 
+from thereon. 
+B2B supplies (Hyperpure) 
+Revenue 
+INR crore, unless otherwise mentioned 02FY25 0Q3FY25 Q4FY25  0QIFY26  0Q2FY26 
+Restaurant business 662 759 698 816 940 
+Non-restaurant business 8 912 1142 1,479 83 
+Total 1,473 167 1,840 2,295 1023 
+YoY % change (Restaurant business) +43% +46% +34% +41% +42% 
+YoY % change (Non-restaurant business) +188% +169% +166% +134% -90% 
+YoY % change (Total) +98% +95% +93% +89% -31% 
+Adjusted EBITDA 
+INR crore, unless otherwise mentioned 02FY25 Q3FY25 Q4FY25  0QIFY26  0Q2FY26 
+Restaurant business -20 -16 =21 -18 -8 
+Non-restaurant business -1 -3 -1 0 3 
+Total -21 -1 -22 -18 -5 
+as a % of Revenue (Restaurant business) -3.0% -2.1% -3.0% -2.2% -0.9% 
+as a % of Revenue (Non-restaurant business) -0.1% -0.3% -0.1% 0.0% 3.6% 
+as a % of Total Revenue -1.4% -1.1% -1.2% -0.8% -0.5% 
+011. Can you give us an update on the going-out business? 
+Deepinder: Our customer base continues to expand rapidly which is giving us the confidence to continue 
+investingin building District as the one-stop destination in India for discovering multiple going-out 
+use-cases. 
+In 02FY26, we added 'stores’ as a new category alongside dining-out, movies and event ticketing. ‘District 
+stores’ digitises offline retail by enabling customers to discover nearby stores and access exclusive deals 
+and offers. This also turns a routine store visit into a planned, value-driven experience, leading to higher 
+customer retention and engagement for our merchants. We have already onboarded ~3,400 outlets across 
+six cities and have enabled 60,000+ transactions till date. Early traction is promising, and we plan to 
+continue scaling this segment. 
+We also launched District in the UAE. We already have a dining-out business in the region, and with District 
+we are now bringing both the dining-out and live events offerings onto a single app (much like what we are 
+doing in India). We chose to expand live events in the UAE because it is a global hub for outdoor

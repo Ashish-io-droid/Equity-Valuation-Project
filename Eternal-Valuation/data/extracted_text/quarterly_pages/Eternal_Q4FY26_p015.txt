@@ -1,0 +1,22 @@
+Annexure B - Adjusted Revenue and Adjusted EBITDA reconciliation 
+The following table reconciles revenue from operations and stated loss for the period (as per Ind AS)with 
+Adjusted Revenue and Adjusted EBITDA, respectively. 
+Consolidated Adjusted Revenue 
+INR crore, unless otherwise mentioned 04FY25 QIFY26 02FY26 03FY26 0Q4FY26 
+Revenue from operations 5,833 7.167 13,590 16,315 17,292 
+Add: Actual customer delivery charges paid in 
+the food delivery business 248 27 225 189 188 
+Add: Gross platform fee and other charges paid on 186 213 254 304 315 
+food delivery Orders 
+ey Groans oy sk ok o) 8 o % s 
+Adjusted Revenue 6,188 7563 13,968 16,692 17,680 
+INR crore, unless otherwise mentioned 04FY25 0IFY26 02FY26 03FY26 0Q4FY26 
+Adjusted EBITDA 165 172 224 364 429 
+Add: Other income 368 354 352 348 342 
+Add: Rental paid pertaining to ‘Ind AS 116 leases’ 124 153 189 231 265 
+Less: Depreciation & amortization expense 287 314 376 439 468 
+Less: Finance cost 56 67 86 107 132 
+Less: ESOP expense 217 210 174 227 208 
+Less: Exceptional items 0 0 0 0 0 
+Less: Tax expense!” 58 63 64 68 54 
+Profit / (loss) for the period 39 25 65 102 174

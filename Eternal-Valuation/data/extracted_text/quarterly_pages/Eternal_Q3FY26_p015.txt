@@ -1,0 +1,51 @@
+Food delivery (continued) 
+Term 
+Contribution 
+Adjusted EBITDA 
+Monthly transacting customers 
+Monthly active delivery partners 
+Monthly active food delivery restaurant 
+partners 
+Quick commerce 
+Term 
+Orders 
+Gross order value (GOV) 
+Net order value (NOV) 
+Average order value (AOV) 
+Net average order value (Net AOV / NAOV) 
+Revenue 
+Description 
+Defined as Adjusted Revenue (-) last mile delivery cost (-) platform 
+funded discounts (-) payment gateway and COD handling charges (-) 
+customer support and appeasement cost (-) customer & restaurant 
+partner refunds (-) delivery partner recruitment and onboarding cost 
+(=) other miscellaneous costs 
+Defined as EBITDA (+) share-based payment expense (-) rental paid for 
+the period pertaining to ‘Ind AS 116 leases’ 
+Number of unique transacting customers identified by customers’ 
+mobile number that have placed at least one Order in India in that 
+month 
+Unique delivery partners identified by their national identity proof who 
+successfully delivered at least one Order in India in that month 
+Unique restaurant partners that received at least one Order in India in 
+that month 
+Description 
+Defined as all orders placed on the Blinkit platform in India, including 
+canceled orders 
+Total monetary value of Orders at maximum retail price ("MRP") of 
+goods sold (except for instances where MRP is not applicable such as 
+fruits and vegetables in which case final selling price is used instead of 
+MRP), gross of any seller/ brand/ platform funded subsidies (excluding 
+tips)(+) actual customer delivery charges paid (net of any discounts) 
+(+) other charges such as handling fee, convenience fee, packaging fee 
+(+)taxes 
+GOV (-)all discounts (funded by brands, sellers, platform, bank, others) 
+GOV divided by number of Orders 
+NOV divided by number of Orders 
+Defined as quick commerce revenue from operations including Blinkit 
+marketplace commission income on sale of goods where inventory is 
+owned by a third-party seller (+) monetary value of goods sold as per 
+Ind AS where inventory is owned by the subsidiaries of the Company (+) 
+actual customer delivery charges (net of any discounts)(+) ad revenue 
+(+) warehousing and ancillary services income 
+14
